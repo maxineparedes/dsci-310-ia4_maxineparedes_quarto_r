@@ -17,8 +17,7 @@ editor: source
 bibliography: references.bib
 ---
 
-```{r}
-#| echo: false
+```{r echo=false}
 library(tidyverse)
 ```
 
