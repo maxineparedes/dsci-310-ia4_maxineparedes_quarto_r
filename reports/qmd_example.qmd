@@ -9,6 +9,10 @@ format:
     html:
         toc: true
         toc-location: left
+    pdf:
+        latex-engine: xelatex
+        toc: true
+        toc-location: left
 editor: source
 bibliogaphy: references.bib
 ---
@@ -68,7 +72,7 @@ $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
 Additionally, note that in @tbl-horses-info we consider the sample standard deviation of the number of horses during the same time span as @fig-horses.
 
-![Horse populations for the province with the largest standard deviation](../results/horse_pop_plot_largest_sd.png){#fig-sd}{width=60%}
+![Horse populations for the province with the largest standard deviation](../results/horse_pop_plot_largest_sd.png){#fig-sd width=60%}
 
 See @fig-sd for an illustration.
 

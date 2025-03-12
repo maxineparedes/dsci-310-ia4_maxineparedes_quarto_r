@@ -81,7 +81,7 @@ window.Quarto = {
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../qmd_example.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
 </div>
@@ -225,9 +225,18 @@ Table&nbsp;1: Standard deviation of historical (1906-1972) horse populations for
 <p>Note that we define standard deviation (of a sample) as</p>
 <p><span class="math display">\[s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }\]</span></p>
 <p>Additionally, note that in <a href="#tbl-horses-info" class="quarto-xref">Table&nbsp;1</a> we consider the sample standard deviation of the number of horses during the same time span as <a href="#fig-horses" class="quarto-xref">Figure&nbsp;1</a>.</p>
-<p><img src="../results/horse_pop_plot_largest_sd.png" id="fig-sd" class="img-fluid" alt="Horse populations for the province with the largest standard deviation">{width=60%}</p>
-<p>See <strong>?@fig-sd</strong> for an illustration.</p>
-<p>In <strong>?@fig-sd</strong> we zoom in and look at the province of <code>{r} largest_sd</code> which had the largest spread of values in terms of standard deviation.</p>
+<div id="fig-sd" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../results/horse_pop_plot_largest_sd.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Horse populations for the province with the largest standard deviation
+</figcaption>
+</figure>
+</div>
+<p>See <a href="#fig-sd" class="quarto-xref">Figure&nbsp;2</a> for an illustration.</p>
+<p>In <a href="#fig-sd" class="quarto-xref">Figure&nbsp;2</a> we zoom in and look at the province of <code>{r} largest_sd</code> which had the largest spread of values in terms of standard deviation.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
