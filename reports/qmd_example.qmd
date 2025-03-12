@@ -18,6 +18,7 @@ bibliography: references.bib
 ---
 
 ```{r}
+#| echo: true
 library(tidyverse)
 ```
 
@@ -59,6 +60,7 @@ with the highest spread (in terms of standard deviation) of horse populations.
 We present the standard deviations in tbl-horses-info.
 
 ```{r}
+#| echo: true
 #| label: tbl-horses-info
 #| tbl-cap: 'Standard deviation of historical (1906-1972) horse populations for each Canadian province'
 horses_sd_table <- read_csv("../results/horses_sd.csv")
@@ -76,8 +78,6 @@ Additionally, note that in @tbl-horses-info we consider the sample standard devi
 
 See @fig-sd for an illustration.
 
-In @fig-sd  we zoom in and look at the province of ```{r}
-largest_sd
-``` which had the largest spread of values in terms of standard deviation.
+In @fig-sd  we zoom in and look at the province of `{r} largest_sd` which had the largest spread of values in terms of standard deviation.
 
 ## References
