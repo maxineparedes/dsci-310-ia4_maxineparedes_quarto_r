@@ -17,7 +17,9 @@ editor: source
 bibliography: references.bib
 ---
 
-```{r output=false}
+```{r}
+#| output= false
+
 library(tidyverse)
 ```
 
@@ -56,7 +58,7 @@ to further support this hypothesis.
 
 Suppose we were interested in looking in more closely at the province 
 with the highest spread (in terms of standard deviation) of horse populations. 
-We present the standard deviations in tbl-horses-info.
+We present the standard deviations in @tbl-horses-info.
 
 ```{r}
 #| echo: false
